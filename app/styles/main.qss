@@ -1,12 +1,56 @@
-QPushButton {
-    background-color: #3498db;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    padding: 10px;
+/* Estilos globais */
+Qwidget {
+    font-family: Arial, sans-serif;
     font-size: 14px;
+    background-color: #f7f7f7f7;
+    color: #333;
 }
 
-QPushButton:hover {
-    background-color: #2980b9;
+/* NavBar */
+Qlabel#navbar_title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+QPushButton {
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+QPushButton:hover{
+    background-color: #005645;
+}
+
+QPushButton#btn_sair {
+    background-color: #dc3545;
+}
+
+QPushButton#btn_sair:hover {
+    background-color: #a71d2a;
+}
+
+/* Footer */
+
+QFrame {
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    background-color: #ffffff;
+    padding: 10px;
+}
+
+QLabel#Label_Welcome {
+    font-size: 15px;
+    font-weight: bold;
+    color: #4CAF50;
+}
+
+QLabel#datails_label {
+    font-size: 14px;
+    color: #555555;
+    margin-top: 10px;
 }
